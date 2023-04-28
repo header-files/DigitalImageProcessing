@@ -47,11 +47,11 @@ def merge_imgs(imgs_list, scale, order=None, border=8, border_color=0):
     imgs_show = border_color * np.ones((show_height, show_weight), dtype=np.uint8)
 
     img_idx = 0
-    heighted = np.max(height, axis=1)
+    highest = np.max(height, axis=1)
     # 拼接图片
     for i in range(order[0]):
         for j in range(order[1]):
-            x_start = int(np.sum(heighted[0:i]) + border * i)
+            x_start = int(np.sum(highest[0:i]) + border * i)
             x_end = int(x_start + imgs_list[img_idx].shape[0])
 
             y_start = int(np.sum(weight[i][0:j]) + border * j)
