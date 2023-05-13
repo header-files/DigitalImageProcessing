@@ -1,4 +1,5 @@
 import warnings
+from copy import deepcopy
 
 import cv2 as cv
 import numpy as np
@@ -14,7 +15,7 @@ def merge_imgs(imgs_list, scale, order=None, border=8, border_color=0):
     :param border_color: tuple 分割线颜色
     :return: 返回拼接好的numpy数组
     """
-    imgs_list = imgs_list.copy()
+    imgs_list = deepcopy(imgs_list)
 
     if order is None:
         order = [1, len(imgs_list)]
