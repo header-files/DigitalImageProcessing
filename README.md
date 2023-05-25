@@ -46,3 +46,14 @@
 | [均值滤波器平滑彩色图像](./src/CH06/ch06_6_1.py)   | -  | cv.blur()      | -       |
 | [拉普拉斯滤波器锐化彩色图像](./src/CH06/ch06_6_2.py) | -  | cv.Laplacian() | -       |
 
+### [第九章](./src/CH09)
+
+| 代码                                  | 原文       | 主要函数                                              | 备注 |
+|-------------------------------------|----------|---------------------------------------------------|----|
+| [腐蚀膨胀](./src/CH09/ch09_2_all.py)    | 405、407页 | cv.erode()、cv.dilate()                            | -  |
+| [开操作与闭操作](./src/CH09/ch09_3_all.py) | 410页     | cv.morphologyEx()                                 | -  |
+| [灰度级腐蚀膨胀](./src/CH09/ch09_6_1.py)   | 429页     | cv.erode()、cv.dilate()、cv.getStructuringElement() | -  |
+| [形态学梯度](./src/CH09/ch09_6_3_2.py)   | 432页     | cv.morphologyEx()                                 | -  |
+| [顶帽变换](./src/CH09/ch09_6_3_3.py)    | 433页     | cv.morphologyEx()                                 | -  |
+| [纹理分割](./src/CH09/ch09_6_3_5.py)    | 435页     | cv.morphologyEx()                                 | -  |
+
