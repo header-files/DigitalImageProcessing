@@ -57,3 +57,13 @@
 | [顶帽变换](./src/CH09/ch09_6_3_3.py)    | 433页     | cv.morphologyEx()                                 | -  |
 | [纹理分割](./src/CH09/ch09_6_3_5.py)    | 435页     | cv.morphologyEx()                                 | -  |
 
+### [第十章](./src/CH10)
+
+| 代码                                    | 原文   | 主要函数                                            | 备注                                          |
+|---------------------------------------|------|-------------------------------------------------|---------------------------------------------|
+| [LoG算子](./src/CH10/ch10_2_6_1.py)     | 462页 | cv.GaussianBlur()、cv.Laplacian()、cv.threshold() | -                                           |
+| [Canny边缘检测](./src/CH10/ch10_2_6_2.py) | 466页 | cv.Canny()                                      | -                                           |
+| [霍夫变换](./src/CH10/ch10_2_7.py)        | 475页 | cv.HoughLines()                                 | -                                           |
+| [Otsu阈值处理](./src/CH10/ch10_3_2.py)    | 483页 | cv.threshold()                                  | -                                           |
+| [分水岭分割](./src/CH10/ch10_5_3.py)       | 501页 | cv.watershed()                                  | [参考](https://zhuanlan.zhihu.com/p/67741538) |
+
